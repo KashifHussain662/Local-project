@@ -1,7 +1,9 @@
 body{
     background-color: rgb(42, 85, 124);
 }
-.section-one{
+
+
+#section-one{
     background: url('../images/bg-img/section-one-bg-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -14,6 +16,7 @@ body{
     background-color: rgba(97, 0, 0, 0.5);
 }
 
+
 #heading{
     color:yellowgreen;
     padding: 20px;
@@ -22,16 +25,19 @@ body{
     
 }
 
+
 #heading:hover{
     font-size: 25px;
     /* color: rgb(161, 219, 161); */
 }
+
 
 #items{
     font-size: 18px;
     color: white;
     font-family:' monospace'
 }
+
 
 #items:hover{
     text-decoration: underline chartreuse;
@@ -40,10 +46,12 @@ body{
 
 }
 
+
 #title-container{
     background-color: rgba(24, 22, 22, 0.699);
     border-radius: 8px;
 }
+
 
 #title{
     color: white;
@@ -53,6 +61,7 @@ body{
     font-size: 30px;
 }
 
+
 #title-middle{
     color: white;
     font-size: 100px;
@@ -60,6 +69,8 @@ body{
     font-style: italic;
     font-family: serif;
 }
+
+
 #title-content{
     color: white;
     font-size: 20px;
@@ -68,42 +79,77 @@ body{
     font-family: serif;
     
 }
+
+
 .navbar-toggler {
     background-color: #ffffff;
 }
+
 
 #social-icon{
     text-decoration: none;
     color: #2eff7e;
     font-size: 20px;
 }
+
+
 #social-icon:hover{
     font-size: 22px;
 }
+
+
 #contact{
     font-size: 18px;
     text-decoration: none;
     color: white;
 }
 
+
 #contact:hover{
     text-decoration: underline;
 }
+
+
 #section-two{
-    background-color: #2eff7e;
+    background-color: #f7d5c6;
 }
+
+
 #aside-img{
     border: 10px solid rgb(255, 255, 255);
     border-radius: 12px;
 }
 
-#aside-title{
+
+#headings{
     color: yellowgreen;    
 }
-#aside-content{
-    color: white;
-    font-size: 18px;
+
+
+.content{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    padding: 30px 0px 10px 0px;
+    /* padding: 0px 0px 10px 0px; */
+}
+
+
+#section-three{
+    background-color: rgb(71, 50, 50);
+    /* padding: 50px 200px; */
+}
+#card{
+    margin-top: 150px;
+}
+
+
+#card-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* border: 10px solid rgb(255, 255, 255) ; */
+    margin-top: -150px;
+    padding: 0px 20px;
+    background-color: rgb(121, 121, 121);
 }
