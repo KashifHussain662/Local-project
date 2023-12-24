@@ -1,0 +1,88 @@
+.section-one{
+    background: url('../images/bg-img/section-one-bg-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#nav{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#heading{
+    color: greenyellow;
+    padding: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#heading:hover{
+font-size: 25px;
+color: green;
+}
+
+#items{
+    font-size: 22px;
+    color: white;
+    font-family:' monospace'
+}
+
+#items:hover{
+    text-decoration: underline chartreuse;
+    font-size: 25px;
+    color: greenyellow;
+
+}
+
+#title-container{
+    background-color: rgba(24, 22, 22, 0.699);
+}
+
+#title{
+    color: white;
+    padding: 20px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+#title-middle{
+    color: white;
+    font-size: 100px;
+    padding: 20px;
+    font-style: italic;
+    font-family: serif;
+}
+#title-content{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+    font-family: serif;
+    
+}
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+#social-icon{
+    text-decoration: none;
+    color: #2eff7e;
+    font-size: 20px;
+}
+#social-icon:hover{
+    font-size: 22px;
+}
+#contact{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+#contact:hover{
+    text-decoration: underline;
+}
