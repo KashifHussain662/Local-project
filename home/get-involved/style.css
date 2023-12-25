@@ -1,0 +1,13 @@
+#active-item{
+    color: greenyellow;
+    font-size: 20px;
+    font-family:' monospace';
+    font-weight: bold;
+}
+
+#active-item:hover{
+    text-decoration: underline chartreuse;
+    font-size: 25px;
+    color: greenyellow;
+
+}
