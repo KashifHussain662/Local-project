@@ -3,22 +3,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
 #nav{
     background-color: rgba(97, 0, 0, 0.5);
 }
-
-
-/* #heading{
-    color:yellowgreen;
-    padding: 20px;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    
-} */
 
 
 
@@ -74,6 +64,7 @@
 
 .navbar-toggler {
     background-color: #ffffff;
+    margin-top: -30px;
 }
 
 
@@ -107,6 +98,7 @@
 
 #section-two{
     background-color: #f7d5c6;
+    padding: 1.2rem
 }
 
 
@@ -132,7 +124,6 @@
 
 #section-three{
     background-color: rgb(71, 50, 50);
-    /* padding: 50px 200px; */
 }
 
 
@@ -146,7 +137,7 @@
     height: 300px;
     border-radius: 50%;
     /* border: 10px solid rgb(255, 255, 255) ; */
-    margin-top: -150px;
+    margin-top: -130px;
     padding: 0px 20px;
     background-color: rgb(121, 121, 121);
 }
@@ -154,6 +145,7 @@
 
 #section-four{
     background-color: #2e0e00;
+    padding: 1.2rem
 }
 #carousel-card{
     background-color: rgba(255, 255, 255, 0.664);
@@ -180,3 +172,38 @@
 #carousel-card-name:hover{
     font-size: 30px;
 }
+
+
+#section-five {
+    background: url('./images/bg-img/section-one-bg-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* padding: 20px 0; */
+}
+
+
+#footer-bg{
+    padding: 20px;
+    background: linear-gradient(to right, #794a4ab2, #161a3fa8); /*Gradient background color */
+}
+#footer-links{
+    text-decoration: none;
+    color: white;
+    margin:5px;
+}
+
+#footer-links:hover{
+    color: greenyellow;
+}
+#right-arrow{
+    font-size: 10px;
+}
+
+#footer-social-icon{
+    color: white;
+    font-size: 22px;
+    margin: 0px 5px;
+}
+
