@@ -1,13 +1,39 @@
-#active-item{
-    color: greenyellow;
-    font-size: 20px;
-    font-family:' monospace';
-    font-weight: bold;
+#about-banner-section{
+    /* padding: 1.2rem; */
+    background: url('./images/about-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
-#active-item:hover{
-    text-decoration: underline chartreuse;
-    font-size: 25px;
-    color: greenyellow;
+#about-cards{
+    align-items: center;
+    height: 50vh;
+}
+#about-card-heading{
+    color: rgb(49, 17, 17);
+    font-size: 50px;
+}
 
+#about-section-2{
+    padding: 1.2rem;
+    background-color: rgb(141, 141, 141);
+}
+
+#about-side-heading{
+    color: rgb(255, 238, 141);
+    font-size: 30px;    
+}
+
+#about-side-img{
+    width: 320px;
+    border-radius: 10px;
+    border: 10px solid white;
+}
+#about-side-content{
+    font-size: 17px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }

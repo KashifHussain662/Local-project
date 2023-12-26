@@ -9,5 +9,21 @@
     text-decoration: underline chartreuse;
     font-size: 25px;
     color: greenyellow;
-
 }
+
+#section-main{
+    padding: 1.2rem;
+    background-color: rgb(78, 77, 77);
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+#progrram-card-section{
+    padding: 1.2rem;
+    background-color: rgb(161, 95, 95);
+}
+#about-card-pic{
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+
