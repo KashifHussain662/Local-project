@@ -106,11 +106,12 @@
 }
 
 #headings{
-    color: rgb(255, 238, 141);
+    color: rgb(0, 114, 6);
+    font-weight: bold;
 }
 
 .content{
-    color: rgb(0, 0, 0);
+    color: rgb(61, 61, 61);
     font-size: 22px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
@@ -133,6 +134,16 @@
     margin-top: -130px;
     padding: 0px 20px;
     background-color: rgb(121, 121, 121);
+}
+
+#comunity-section{
+    background: url('./images/bg-img/cmunity.webp');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    /* padding: 1.2rem; */
 }
 
 
@@ -166,6 +177,14 @@
     font-size: 30px;
 }
 
+#participate-section{
+    background-color: rgb(37, 187, 142);
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 #section-five {
     background: url('./images/bg-img/section-one-bg-img.jpg');
@@ -179,7 +198,7 @@
 
 #footer-bg{
     padding: 20px;
-    background: linear-gradient(to right, #794a4ab2, #161a3fa8); /*Gradient background color */
+    background: linear-gradient(to right, #794a4abd, #161a3fb7); /*Gradient background color */
 }
 #footer-links{
     text-decoration: none;

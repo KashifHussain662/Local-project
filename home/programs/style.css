@@ -21,9 +21,13 @@
     background-color: rgb(161, 95, 95);
 }
 #about-card-pic{
-    height: 200px;
+    height: 250px;
     border: 10px solid white;
     border-radius: 10px;
 }
 
+#about-card-text{
+    font-size: 20px;
+    text-align: left;
+}
 
