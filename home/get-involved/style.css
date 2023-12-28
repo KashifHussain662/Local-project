@@ -1,9 +1,9 @@
 #Get-involved-section{
-    background: url('../../../OIP.jpeg');
-    background-position: top;
+    background: url('./images/banner-bg-img.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
 }
 
 #boottom-container{

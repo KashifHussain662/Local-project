@@ -2,7 +2,12 @@
     /* padding: 1.2rem; */
     background-color: rgb(187, 187, 187);
     border-bottom: 1px solid rgb(88, 88, 88);
-    
+    background: url('./images/banner-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 70vh;    
 }
 #progrram-card-section{
     padding: 1.2rem;

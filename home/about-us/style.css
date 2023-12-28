@@ -1,11 +1,11 @@
 #about-banner-section{
-    padding: 1.5rem;
-    background: url('./images/banner-1.jpg');
+    /* padding: 2.5rem; */
+    background: url('./images/banner-bg-img.jpg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     position: relative;
-    /* height: 100vh; */
+    height: 70vh;
 }
 
 #about-cards{

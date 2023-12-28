@@ -1,15 +1,9 @@
-
-#active-item{
-    color: greenyellow;
-    font-size: 20px;
-    font-family:' monospace';
-    font-weight: bold;
+#contact-banner-section{
+    /* padding: 2.5rem; */
+    background: url('./images/banner-bg-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
 }
-
-#active-item:hover{
-    text-decoration: underline chartreuse;
-    font-size: 25px;
-    color: greenyellow;
-
-}
-

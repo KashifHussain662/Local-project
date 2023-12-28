@@ -1,13 +1,31 @@
-#active-item{
-    color: greenyellow;
-    font-size: 20px;
-    font-family:' monospace';
-    font-weight: bold;
+.header {
+    text-align: center;
+    
+    background-color: #333;
+    /* color: #fff; */
+    background: url('./images/banner-bg-img.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    /* padding: 100px; */
 }
 
-#active-item:hover{
-    text-decoration: underline chartreuse;
-    font-size: 25px;
-    color: greenyellow;
+#section {
+    padding: 50px 0;
+}
 
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect to features */
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }

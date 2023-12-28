@@ -6,14 +6,15 @@ body{
 }
 
 #section-title{
-    background: url('./images/bg-img/section-one-bg-img.jpg');
+    background: url('./images/bg-img/home-banner-img.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #nav{
-    background-color: rgba(97, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
 }
 
 #items{
@@ -112,8 +113,11 @@ body{
 }
 
 #headings{
-    color: rgb(0, 114, 6);
-    font-weight: bold;
+    /* color: rgb(0, 114, 6);
+    font-weight: bold; */
+    /* text-align: center; */
+    margin-bottom: 30px;
+    /* color: #333; /*Dark color for section titles */
 }
 
 .content{
@@ -142,16 +146,18 @@ body{
     background-color: rgb(121, 121, 121);
 }
 #aside-btn{
-    background-color: #589650;
-    font-size: 15px;
-    font-weight: bold;
+    background-color: #3a3428;
+    font-size: 12px;
+    /* font-weight: bold; */
+    border-radius:25px ;
+    padding: 7px 30px;
 }
 
 #aside-btn:hover{
     background: transparent;
-    border-color: #589650;
+    border-color: #000000;
     border-width: 3px;
-    color: darkgreen;
+    color: rgb(0, 0, 0);
 }
 #comunity-section{
     background: url('./images/bg-img/cmunity.webp');
@@ -200,10 +206,6 @@ body{
     font-size: 26px;
     letter-spacing: 2px;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-}
-
-#Get-involved-content-section{
-    background-color: rgb(132, 153, 161);
 }
 
 #Get-involved-section-1{
