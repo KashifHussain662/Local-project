@@ -4,4 +4,4 @@ ScrollReveal({
   duration: 2500,
   delay: 400,
 });
-ScrollReveal().reveal("#aside-pic", { delay: 500, origin: "left" });
+ScrollReveal().reveal("#aside-img", { delay: 500, origin: "bottom" });

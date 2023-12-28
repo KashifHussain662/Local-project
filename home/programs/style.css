@@ -1,33 +1,25 @@
-#active-item{
-    color: greenyellow;
-    font-size: 20px;
-    font-family:' monospace';
-    font-weight: bold;
-}
-
-#active-item:hover{
-    text-decoration: underline chartreuse;
-    font-size: 25px;
-    color: greenyellow;
-}
-
 #section-main{
-    padding: 1.2rem;
-    background-color: rgb(78, 77, 77);
-    border-bottom: 1px solid rgb(153, 153, 153);
+    /* padding: 1.2rem; */
+    background-color: rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(88, 88, 88);
+    
 }
 #progrram-card-section{
     padding: 1.2rem;
-    background-color: rgb(161, 95, 95);
 }
 #about-card-pic{
     height: 250px;
-    border: 10px solid white;
-    border-radius: 10px;
+    width: 320px;
+    /* border: 10px solid white; */
+    border-radius: 15px;
+    margin-top: 5px;
 }
 
 #about-card-text{
     font-size: 20px;
     text-align: left;
+}
+.card{
+    border-radius: 20px;
 }
 

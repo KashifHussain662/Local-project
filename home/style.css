@@ -1,3 +1,10 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    /* font-style: italic;   */
+    font-weight: 600;
+    background-color: rgb(204, 204, 204);
+}
+
 #section-title{
     background: url('./images/bg-img/section-one-bg-img.jpg');
     background-position: center;
@@ -12,7 +19,7 @@
 #items{
     font-size: 18px;
     color: white;
-    font-family:' monospace'
+    /* font-family:' monospace' */
 }
 
 #items:hover{
@@ -25,7 +32,7 @@
 #active-item{
     color: greenyellow;
     font-size: 20px;
-    font-family:' monospace';
+    /* font-family:' monospace'; */
     font-weight: bold;
 }
 
@@ -43,10 +50,10 @@
 
 #title{
     /* color: white; */
-    color: rgb(169, 169, 169);
+    /* color: rgb(169, 169, 169); */
     padding: 20px;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-style: italic; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 30px;
 }
 
@@ -55,7 +62,7 @@
     font-size: 100px;
     padding: 20px;
     font-style: italic;
-    font-family: serif;
+    /* font-family: serif; */
 }
 
 #title-content{
@@ -63,7 +70,6 @@
     font-size: 20px;
     padding: 20px;
     font-style: italic;
-    font-family: serif;   
 }
 
 .navbar-toggler {
@@ -96,7 +102,7 @@
 }
 
 #section-two{
-    background-color: #f7d5c6;
+    background-color: #c1cbe2;
     padding: 1.2rem
 }
 
@@ -112,15 +118,15 @@
 
 .content{
     color: rgb(61, 61, 61);
-    font-size: 22px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+    font-size: 18px;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: italic; */
     /* padding: 0px 0px 10px 0px; */
 }
 
-#section-program{
-    background-color: rgb(71, 50, 50);
-}
+.card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Box shadow on hover */
+    transform: scale(1.05); /* Zoom effect on hover */}
 
 #card{
     margin-top: 150px;
@@ -135,7 +141,18 @@
     padding: 0px 20px;
     background-color: rgb(121, 121, 121);
 }
+#aside-btn{
+    background-color: #589650;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+#aside-btn:hover{
+    background: transparent;
+    border-color: #589650;
+    border-width: 3px;
+    color: darkgreen;
+}
 #comunity-section{
     background: url('./images/bg-img/cmunity.webp');
     background-position:right;
@@ -182,9 +199,24 @@
     color: white;
     font-size: 26px;
     letter-spacing: 2px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
+#Get-involved-content-section{
+    background-color: rgb(132, 153, 161);
+}
+
+#Get-involved-section-1{
+    height: 50vh;
+}
+
+#line{
+    border-right: 1px solid rgb(112, 112, 112);
+}
+#line-1{
+    border-top: 1px solid rgb(112, 112, 112);
+    /* margin: 0px 20px; */
+}
 
 #section-five {
     background: url('./images/bg-img/section-one-bg-img.jpg');

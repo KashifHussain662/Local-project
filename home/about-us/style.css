@@ -20,8 +20,9 @@
 }
 
 #about-section-2{
-    padding: 1.2rem;
-    background-color: rgb(194, 202, 221);
+    /* padding: 1.2rem; */
+    background-color: rgb(224, 234, 255);
+    padding-bottom: 50px;
 }
 
 #about-side-heading{
@@ -31,13 +32,13 @@
 }
 
 #about-side-img{
-    width: 320px;
+    width: 350px;
     border-radius: 10px;
     border: 10px solid white;
 }
 #about-side-content{
     font-size: 17px;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic; */
 }

@@ -1,13 +1,12 @@
-#active-item{
-    color: greenyellow;
-    font-size: 20px;
-    font-family:' monospace';
-    font-weight: bold;
+#Get-involved-section{
+    background: url('../../../OIP.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-#active-item:hover{
-    text-decoration: underline chartreuse;
-    font-size: 25px;
-    color: greenyellow;
-
+#boottom-container{
+    border-radius: 20px;
+    color: gray;
 }
