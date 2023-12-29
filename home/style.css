@@ -6,11 +6,12 @@ body{
 }
 
 #section-title{
-    background: url('./images/bg-img/home-banner-img.png');
+    /* background: url('./images/bg-img/home-banner-img.png'); */
+    background: url('../../b.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 100vh;
 }
 
 #nav{
@@ -44,35 +45,31 @@ body{
     color: greenyellow;
 }
 
-#title-container{
+/* #title-container{
     background-color: rgba(24, 22, 22, 0.699);
     border-radius: 8px;
     background: linear-gradient(to right, #794a4a63, #161a3fb9); /* Gradient background color */
-}
 
 #title{
-    /* color: white; */
-    /* color: rgb(169, 169, 169); */
-    padding: 20px;
-    /* font-style: italic; */
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(107, 97, 1);
+    line-height: 60px;
 }
 
-#title-middle{
+/* #title-middle{
     color: white;
     font-size: 100px;
     padding: 20px;
-    font-style: italic;
+    font-style: italic; */
     /* font-family: serif; */
-}
+/* 
 
 #title-content{
     color: white;
     font-size: 20px;
     padding: 20px;
     font-style: italic;
-}
+} */
 
 .navbar-toggler {
     background-color: #ffffff;
@@ -142,7 +139,7 @@ body{
     height: 300px;
     border-radius: 50%;
     /* border: 10px solid rgb(255, 255, 255) ; */
-    margin-top: -130px;
+    margin-top: -80px;
     padding: 0px 20px;
     background-color: rgb(121, 121, 121);
 }

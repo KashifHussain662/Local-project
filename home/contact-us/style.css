@@ -1,5 +1,4 @@
 #contact-banner-section{
-    /* padding: 2.5rem; */
     background: url('./images/a.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -8,9 +7,8 @@
     height: 100vh;
 }
 #social-icon-cntct{
-    color: rgb(104, 16, 16);
+    color: rgb(16, 61, 104);
     font-size: 25px;
-    /* justify-content: center; */
 }
 
 #container {
@@ -34,7 +32,10 @@ label {
     font-weight: bold;
 }
 
-button {
-    background-color: #007bff;
-    color: #ffffff;
+.form-control{
+    background-color: rgb(184, 184, 184);
+}
+
+.form-control:hover{
+    border: 2px solid black;
 }
