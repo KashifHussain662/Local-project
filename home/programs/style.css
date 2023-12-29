@@ -4,17 +4,17 @@
     border-bottom: 1px solid rgb(88, 88, 88);
     background: url('./images/banner-bg-img.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
     position: relative;
-    height: 70vh;    
+    height: 100vh;    
 }
 #progrram-card-section{
     padding: 1.2rem;
 }
 #about-card-pic{
     height: 250px;
-    width: 320px;
+    width: 300px;
     /* border: 10px solid white; */
     border-radius: 15px;
     margin-top: 5px;

@@ -1,9 +1,40 @@
 #contact-banner-section{
     /* padding: 2.5rem; */
-    background: url('./images/banner-bg-img.png');
+    background: url('./images/a.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 70vh;
+    height: 100vh;
+}
+#social-icon-cntct{
+    color: rgb(104, 16, 16);
+    font-size: 25px;
+    /* justify-content: center; */
+}
+
+#container {
+    /* background-color: rgb(204, 204, 204); */
+    background: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.form-group:hover {
+    transform: scale(1.05);
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
 }

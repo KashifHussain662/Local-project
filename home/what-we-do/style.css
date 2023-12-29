@@ -1,13 +1,9 @@
 .header {
-    text-align: center;
-    
-    background-color: #333;
-    /* color: #fff; */
     background: url('./images/banner-bg-img.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     /* padding: 100px; */
 }
 
