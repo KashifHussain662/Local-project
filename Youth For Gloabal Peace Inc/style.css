@@ -1,89 +1,61 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    /* font-style: italic;   */
     font-weight: 600;
     background-color: rgb(204, 204, 204);
 }
 
+
 #section-title{
-    /* background: url('./images/bg-img/home-banner-img.png'); */
-    background: url('../../b.jpg');
+    background: url('./images/bg-img/home-page-banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
+/* start header */
 #nav{
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
 }
 
 #items{
-    font-size: 18px;
+    font-size: 15px;
     color: white;
-    /* font-family:' monospace' */
 }
 
 #items:hover{
     text-decoration: underline chartreuse;
-    font-size: 25px;
+    font-size: 18px;
     color: greenyellow;
 
 }
 
 #active-item{
-    color: greenyellow;
-    font-size: 20px;
-    /* font-family:' monospace'; */
-    font-weight: bold;
-}
-
-#active-item:hover{
-    text-decoration: underline chartreuse;
-    font-size: 25px;
-    color: greenyellow;
-}
-
-/* #title-container{
-    background-color: rgba(24, 22, 22, 0.699);
-    border-radius: 8px;
-    background: linear-gradient(to right, #794a4a63, #161a3fb9); /* Gradient background color */
-
-#title{
-    font-family:'Courier New', Courier, monospace;
-    color: rgb(107, 97, 1);
-    line-height: 60px;
-}
-
-/* #title-middle{
+    font-size: 18px;
+    /* color: rgb(0, 255, 128); */
     color: white;
-    font-size: 100px;
-    padding: 20px;
-    font-style: italic; */
-    /* font-family: serif; */
-/* 
-
-#title-content{
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    font-style: italic;
-} */
+    background-color: #3333336b;
+    border-radius: 5px;
+}
 
 .navbar-toggler {
     background-color: #ffffff;
     margin-top: -30px;
 }
 
+#contact-section-container{
+    justify-content: end;
+}
 #contact-conatiner{
     border-radius:12px 12px 0px 0px ;
+    background-color: rgb(0, 92, 128);
 }
 
 #social-icon{
     text-decoration: none;
     color: #2eff7e;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #social-icon:hover{
@@ -100,9 +72,15 @@ body{
     text-decoration: underline;
 }
 
-#section-two{
+/* close-header */
+
+
+
+/* start-about-things */
+
+#section-about{
     background-color: #c1cbe2;
-    padding: 1.2rem
+    padding: 0px;
 }
 
 #aside-img{
@@ -110,39 +88,17 @@ body{
     border-radius: 12px;
 }
 
-#headings{
-    /* color: rgb(0, 114, 6);
-    font-weight: bold; */
-    /* text-align: center; */
-    margin-bottom: 30px;
-    /* color: #333; /*Dark color for section titles */
+#headings{    
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(107, 97, 1);
+    line-height: 40px;
 }
 
 .content{
     color: rgb(61, 61, 61);
     font-size: 18px;
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    /* font-style: italic; */
-    /* padding: 0px 0px 10px 0px; */
 }
 
-.card:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Box shadow on hover */
-    transform: scale(1.05); /* Zoom effect on hover */}
-
-#card{
-    margin-top: 150px;
-}
-
-#card-pic{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    /* border: 10px solid rgb(255, 255, 255) ; */
-    margin-top: -80px;
-    padding: 0px 20px;
-    background-color: rgb(121, 121, 121);
-}
 #aside-btn{
     background-color: #3a3428;
     font-size: 12px;
@@ -157,6 +113,35 @@ body{
     border-width: 3px;
     color: rgb(0, 0, 0);
 }
+
+/* close-about-things */
+
+/* start-program-section */
+#card{
+    margin-top: 120px;
+}
+
+#program-cards{
+    border-radius: 20px;
+}
+
+#card-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 10px solid white;
+    background-color: rgb(121, 121, 121);
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Box shadow on hover */
+    transform: scale(1.05); /* Zoom effect on hover */}
+
+/* close-program-section */
+
+/* star-community-section */
+
 #comunity-section{
     background: url('./images/bg-img/cmunity.webp');
     background-position:right;
@@ -164,9 +149,11 @@ body{
     background-size: cover;
     height: auto;
     width: 100%;
-    /* padding: 1.2rem; */
 }
 
+/* close-community-section */
+
+/* start-section-testimonial */
 
 #section-testimonial{
     background-color: #000000;
@@ -176,20 +163,23 @@ body{
     background-color: rgba(54, 49, 49, 0.664);
     margin: 20px 10px;
 }
+
 #carousel-card-body{
-    /* padding:50px; */
     margin: 50x;
 }
+
 #carousel-card-img{
     width: 250px;
     margin-bottom: 15px;
     border-radius: 12px;
 }
+
 #carousel-card-txt{
     color: white;
     font-size: 20px;
     margin: 20px;
 }
+
 #carousel-card-name{
     color: white;
 }
@@ -198,37 +188,46 @@ body{
     font-size: 30px;
 }
 
-#participate-section{
-    background-color: rgb(37, 187, 142);
-    color: white;
-    font-size: 26px;
-    letter-spacing: 2px;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-}
+/* close-section-testimonial */
 
+/* start-Get-Involved-section */
 
 #line{
     border-right: 1px solid rgb(112, 112, 112);
 }
 #line-1{
     border-top: 1px solid rgb(112, 112, 112);
-    /* margin: 0px 20px; */
 }
 
-#section-five {
+/* close-Get-Involved-section */
+
+
+/* start-participate-section */
+
+#participate-section{
+    background-color: rgb(37, 187, 142);
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+/* close-participate-section */
+
+/* start-footer-section- */
+
+#section-footer {
     background: url('./images/bg-img/section-one-bg-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    /* padding: 20px 0; */
 }
-
 
 #footer-bg{
     padding: 20px;
     background: linear-gradient(to right, #794a4abd, #161a3fb7); /*Gradient background color */
 }
+
 #footer-links{
     text-decoration: none;
     color: white;
@@ -236,8 +235,9 @@ body{
 }
 
 #footer-links:hover{
-    color: greenyellow;
+    color: rgb(0, 124, 27);
 }
+
 #right-arrow{
     font-size: 10px;
 }
@@ -247,7 +247,12 @@ body{
     font-size: 22px;
     margin: 0px 5px;
 }
+
 .footer-content{
-    font-size: 13px;
+    font-size: 15px;
 }
+
+/* close-footer-section- */
+
+
 

@@ -1,10 +1,9 @@
-.header {
+#what-we-do-section{
     background: url('./images/banner-bg-img.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    /* padding: 100px; */
 }
 
 #section {
