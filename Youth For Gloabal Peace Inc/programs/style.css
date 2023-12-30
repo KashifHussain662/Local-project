@@ -1,5 +1,6 @@
+/* start-program-banner-section */
+
 #section-main{
-    /* padding: 1.2rem; */
     background-color: rgb(187, 187, 187);
     border-bottom: 1px solid rgb(88, 88, 88);
     background: url('./images/banner-bg-img.jpg');
@@ -9,22 +10,20 @@
     position: relative;
     height: 100vh;    
 }
+
+/* close-program-banner-section */
+
+/* start-program-card-section */
+
 #progrram-card-section{
     padding: 1.2rem;
 }
 #about-card-pic{
     height: 250px;
     width: 300px;
-    /* border: 10px solid white; */
     border-radius: 15px;
     margin-top: 5px;
 }
 
-#about-card-text{
-    font-size: 20px;
-    text-align: left;
-}
-.card{
-    border-radius: 20px;
-}
+/* close-program-card-section */
 

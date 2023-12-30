@@ -1,5 +1,6 @@
+/* start-about-banner-section */
+
 #about-banner-section{
-    /* padding: 2.5rem; */
     background: url('./images/banner-bg-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -7,38 +8,25 @@
     position: relative;
     height: 100vh;
 }
+/* close-about-banner-section */
 
-#about-cards{
-    background-color: rgba(10, 4, 4, 0.664)    ;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(3px);
-    padding: 20px 5px;
-}
-#about-card-heading{
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-}
-
-#about-section-2{
-    /* padding: 1.2rem; */
-    background-color: rgb(224, 234, 255);
-    padding-bottom: 50px;
-}
-
-#about-side-heading{
-    color: rgb(0, 114, 6);
-    font-size: 30px;   
-    font-weight: bold; 
-}
+/* start-Dsecription-section- */
 
 #about-side-img{
     width: 350px;
     border-radius: 10px;
-    border: 10px solid white;
+    border: 10px solid rgb(63, 63, 63);
 }
-#about-side-content{
-    font-size: 17px;
-    color: black;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic; */
+
+/* close-Dsecription-section- */
+
+/* start-about-section */
+
+#about-2nd-section{
+    background-color: rgb(214, 220, 255);
 }
+
+/* close-about-2nd-section */
+
+
+

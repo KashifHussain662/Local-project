@@ -1,10 +1,16 @@
-#what-we-do-section{
+/* start-what-we-do-banner-section */
+
+#what-we-do-banner-section{
     background: url('./images/banner-bg-img.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
+
+/* close-what-we-do-banner-section */
+
+/* start-what-we-do-section */
 
 #section {
     padding: 50px 0;
@@ -24,3 +30,5 @@
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+/* close-what-we-do-section */
